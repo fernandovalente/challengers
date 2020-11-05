@@ -10,8 +10,7 @@ def return_binary_num(num):
 
 
 def count_binary_gap(binary):
-    response = []
-    gap = 0
+    response, gap = [], 0
 
     for n in binary.split('1'):
         if n:
